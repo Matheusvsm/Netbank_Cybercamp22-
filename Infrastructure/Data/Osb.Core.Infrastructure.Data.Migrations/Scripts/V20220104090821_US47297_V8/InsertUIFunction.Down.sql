@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertuifunction(character varying, bigint, bigint);

@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertactivatecard(integer, character varying, bigint, bigint);

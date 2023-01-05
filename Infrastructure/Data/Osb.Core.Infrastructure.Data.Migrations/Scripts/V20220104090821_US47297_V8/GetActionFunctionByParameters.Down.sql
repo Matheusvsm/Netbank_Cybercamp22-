@@ -1,0 +1,1 @@
+DROP FUNCTION public.getactionfunctionbyparameters(bigint, bigint, character varying, character varying)

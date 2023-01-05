@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertuserinformation(bigint, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying)

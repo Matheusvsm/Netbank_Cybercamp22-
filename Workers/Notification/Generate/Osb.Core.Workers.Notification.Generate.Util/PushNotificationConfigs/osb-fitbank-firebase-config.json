@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fitbank-7bcfd",
+  "private_key_id": "4e70273ffa64201241c9ca1054533f17cb973e88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDa4Ip9SUhWbwRJ\nWo3dqFHOoIBuhfvTuybronyabOIWnhpVqTBZ5/geNP4t3qtucicAP5hEaV7ZF4sE\n3JETVmZ1/+ScBFdjstXXPTIffi+2zLos5tGxCFQu7LaBc4e2cQKIlHDzMUH21qK4\nubVOZ7hkcpuPwOqXOvWv0ksznT6cPOe1o9tIDA0KBe3U5KwBmiSjRBGppAu6vnKu\nQc5ZsAKV+qEZLaiovusw4X6w2/sqS7ttiS9O/k07AFo3pHBZHlk6QmELLUqxkpFn\nLMryBN3VxL6DoUJ7cajLSFbU2/xZnWsfiUtPHRawA5ILpBMDBkO4ULyQC+D4ELB2\nQSFCHPwVAgMBAAECggEAVEHA/jbSMne9GjHST+RGTbkKh8FrLlgqxOXBer70j8lg\nEN62/r0mDhbPTEAeFT+7VMSmbJt1iDOgcAgqjtuhSMZvrkGblIUY/akQnP/6BTAt\ncTCPw0sWARRds1qSgUBivcoK6wtovcllTaArs9mIqZ5W1RFqHTp0rrDRAzcCjajL\n+L3FpoW5rZnuZQjAKg22OUo3q6dCuadpGiABfIqkm4SX/F1Gj6cdnx5vQlXY1XOb\n8oPobO+aEj+1NbvODNPkEnhb3sKvY5VilWSSpsPYtjkLG0x7kLllJp83jqQjWcZB\nhXuRDv2rNHh3Ksdi1GWArxN3kSIzhyiL+n3sACMrdwKBgQD5azZoskOt95sDByFa\n2OsYk07yLSBRN0NjPQFGSCi05ev2qlUcGK6FRjz340LvEePD/DMaCzHsZbL8YPRU\nudY1xMgUEue0BALzFVL21sk0kNeXlgCdSzFmKsQhpgRPo5PkxF3YENRioaEtN4X9\naoVXDuXb+Xq8g1HgPU4L7npREwKBgQDgpwYZUmAxS1ucMDHmWIjPOClZ75XKutKM\nHxA0PyEEg6VSbm1dSEfUbEDD3InhZdHyDaLJaR6jC6nNqsKjlC5pQhkKdVtBq/R4\nZYj0WImnOpvuGu8hbeqRZmTxNomFRQQZHldTlAVaodEwuZt2dWK7AWHrv8WxgmXS\nEFTCxzdLNwKBgAdQj53ubHGzq0YhdWb2qZ5k45HSpPn8xusoJNtszlTP0WXAhRJ3\n3tZlwu/6KEJeofFjehQvc91c9izUoxXBBXk6Nivwif8LhxKd83rtvaTfApOdgJMc\nW2yFoI7kEYhMYc/5uk7V34Ss/M8Yq8NM1nBBLZiP7nuM1l/fLGTJL6klAoGAFrBn\nykjqlC/zOawYbhZFAwC+FGpBK6+Askw028IAeK8/FDs46nHxZz/jrqRofI5HDPZZ\nmZP3VypHZRE5BUJjCZh2ZPsDU3elgj9m/J6wkGY3921a93pddX/s8/u5Ge+lgU/y\nK+vIOqYbNZuZWvZyGUcDd8bvlYUA+Z1SojVynTMCgYBYPX91lZVB1pzTJU6IkyGh\n5NXZ0XdNpzip+l2WjxitS+9a5tM6cNIV0laIPkPYH1n2FjboaiNjIvjFBmAGkQSz\nq3GZfBGJkEqzUglkEUO4/CFfLvTKTzlMq9GMDijaYlNVR8eK+bnhXh6rg0DFt9Kf\nqv0Qof+tVl159bR0RbqZQg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-p4sp5@fitbank-7bcfd.iam.gserviceaccount.com",
+  "client_id": "105114176929266886649",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p4sp5%40fitbank-7bcfd.iam.gserviceaccount.com"
+}

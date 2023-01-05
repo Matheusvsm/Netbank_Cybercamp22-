@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertstaticpixqrcode(bigint, character varying, character varying, integer, bigint, bigint);

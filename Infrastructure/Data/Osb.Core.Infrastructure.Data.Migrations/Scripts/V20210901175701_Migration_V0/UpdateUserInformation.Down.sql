@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateuserinformation(bigint, text, text, text, text, text, text, text, text);

@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertboletopayment(bigint, character varying, character varying, character varying, character varying, character varying, character varying, bigint, integer, character varying, numeric, timestamp without time zone, timestamp without time zone, numeric, character varying, character varying, bigint);

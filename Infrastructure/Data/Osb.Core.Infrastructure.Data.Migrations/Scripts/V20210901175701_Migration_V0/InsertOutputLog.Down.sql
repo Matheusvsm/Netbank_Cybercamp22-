@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertoutputlog(character varying, bigint);

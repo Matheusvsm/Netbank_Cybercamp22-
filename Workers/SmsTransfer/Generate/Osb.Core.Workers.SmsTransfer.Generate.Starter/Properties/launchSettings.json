@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Osb.Core.Services.TransferBySms.Generate.Worker": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

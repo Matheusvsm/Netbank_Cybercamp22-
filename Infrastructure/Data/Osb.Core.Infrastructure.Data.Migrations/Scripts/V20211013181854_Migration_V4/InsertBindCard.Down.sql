@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertbindcard(bigint, bigint, bigint, bigint, bigint, character varying, integer, bigint)

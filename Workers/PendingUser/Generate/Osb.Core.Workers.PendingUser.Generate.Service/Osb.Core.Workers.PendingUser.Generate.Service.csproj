@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Platform\Auth\Factory\Osb.Core.Platform.Auth.Factory.Service\Osb.Core.Platform.Auth.Factory.Service.csproj"/>
+    <ProjectReference Include="..\..\..\..\Platform\Auth\Osb.Core.Platform.Auth.Entity\Osb.Core.Platform.Auth.Entity.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Auth\Osb.Core.Platform.Auth.Service\Osb.Core.Platform.Auth.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Osb.Core.Platform.Business.Entity\Osb.Core.Platform.Business.Entity.csproj" />    
+    <ProjectReference Include="..\..\..\..\Platform\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Factory\Osb.Core.Platform.Business.Factory.Service\Osb.Core.Platform.Business.Factory.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Osb.Core.Platform.Business.Service\Osb.Core.Platform.Business.Service.csproj" />        
+  </ItemGroup>
+
+</Project>

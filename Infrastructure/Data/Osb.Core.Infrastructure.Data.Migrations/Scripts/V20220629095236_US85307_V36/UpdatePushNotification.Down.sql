@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatepushnotification(bigint, character varying, character varying, integer, timestamp without time zone, integer, bigint);

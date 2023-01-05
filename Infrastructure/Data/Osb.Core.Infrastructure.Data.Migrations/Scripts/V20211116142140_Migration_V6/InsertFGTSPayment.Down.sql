@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertfgtspayment(bigint, bigint, character varying, character varying, numeric, character varying, character varying, character varying, bigint, integer, timestamp without time zone, bigint, integer, character varying, character varying,bigint);

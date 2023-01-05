@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatemoneytransfer(bigint, bigint, integer, integer, bigint);

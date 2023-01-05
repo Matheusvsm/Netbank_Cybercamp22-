@@ -1,0 +1,1 @@
+DROP FUNCTION public.getcompanyauthenticationbyusername(character varying);

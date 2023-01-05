@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertunblockcard(character varying, bigint, character varying, character varying, bigint, bigint);

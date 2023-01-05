@@ -1,0 +1,1 @@
+DROP FUNCTION public.getpixKeybypixkeyvalue(integer, character varying)

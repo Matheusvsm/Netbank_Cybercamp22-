@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateauthorizationtoken(bigint, smallint, smallint, bigint);

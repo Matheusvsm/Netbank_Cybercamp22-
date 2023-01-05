@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertpendinginternaltransfer(bigint, character varying, character varying, numeric, character varying, character varying, character varying, character varying, character varying, character varying, bigint, integer, bigint);

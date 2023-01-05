@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Osb.Core.Workers.TopUp.Authorize.Starter": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

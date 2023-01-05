@@ -1,0 +1,1 @@
+DROP FUNCTION public.updaterememberlogintoken(bigint, bigint, character varying, character varying);

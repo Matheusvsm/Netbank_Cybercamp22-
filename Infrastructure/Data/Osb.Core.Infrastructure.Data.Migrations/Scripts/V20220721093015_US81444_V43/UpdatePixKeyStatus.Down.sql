@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatepixkeystatus(bigint, varchar, integer)

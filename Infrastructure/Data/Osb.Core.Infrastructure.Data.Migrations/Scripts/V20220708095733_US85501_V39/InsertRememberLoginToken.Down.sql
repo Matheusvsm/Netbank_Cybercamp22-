@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertrememberlogintoken(bigint, bigint, character varying, character varying);

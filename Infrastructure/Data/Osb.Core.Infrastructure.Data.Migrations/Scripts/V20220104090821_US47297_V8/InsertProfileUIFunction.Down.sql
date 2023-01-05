@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertprofileuifunction(bigint, bigint, bigint);

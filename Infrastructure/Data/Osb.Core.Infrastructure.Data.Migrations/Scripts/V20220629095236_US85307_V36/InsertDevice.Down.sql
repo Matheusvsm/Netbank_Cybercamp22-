@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertdevice(character varying, bigint, bigint);

@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertcardholdercontact(character varying, character varying, bigint, bigint);

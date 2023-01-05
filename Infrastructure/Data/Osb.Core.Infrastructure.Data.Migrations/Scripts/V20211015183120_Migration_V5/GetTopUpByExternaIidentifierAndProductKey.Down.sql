@@ -1,0 +1,1 @@
+DROP FUNCTION public.gettopupbyexternalidentifierandproductkey(character varying, bigint);

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Entity\Osb.Core.Platform.Integration.Entity.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Common\Osb.Core.Platform.Integration.Common.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Util\Osb.Core.Platform.Integration.Util.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Repository\Osb.Core.Platform.Integration.Repository.csproj" />
+    <ProjectReference Include="..\Factory\Osb.Core.Platform.Integration.Factory.Repository\Osb.Core.Platform.Integration.Factory.Repository.csproj"/>
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj" />
+    <PackageReference Include="FirebaseAdmin" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

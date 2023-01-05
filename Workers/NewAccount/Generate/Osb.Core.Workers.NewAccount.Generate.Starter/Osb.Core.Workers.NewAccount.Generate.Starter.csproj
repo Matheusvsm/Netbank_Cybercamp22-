@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-Osb.Core.Workers.NewAccount.Generate.Starter-489E7447-9548-42F2-9735-94BF2D32160E</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Osb.Core.Workers.NewAccount.Generate.Service\Osb.Core.Workers.NewAccount.Generate.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Osb.Core.Platform.Business.Service\Osb.Core.Platform.Business.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Factory\Osb.Core.Platform.Business.Factory.Service\Osb.Core.Platform.Business.Factory.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Factory\Osb.Core.Platform.Business.Factory.Repository\Osb.Core.Platform.Business.Factory.Repository.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Integration\Factory\Osb.Core.Platform.Integration.Factory.Service\Osb.Core.Platform.Integration.Factory.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Integration\Osb.Core.Platform.Integration.Service\Osb.Core.Platform.Integration.Service.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Integration\Factory\Osb.Core.Platform.Integration.Factory.Repository\Osb.Core.Platform.Integration.Factory.Repository.csproj" />
+    
+    <ProjectReference Include="..\..\..\..\Infrastructure\Data\Osb.Core.Infrastructure.Data.DependecyInjection\Osb.Core.Infrastructure.Data.DependecyInjection.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Auth\Osb.Core.Platform.Auth.Infrastructure\Osb.Core.Platform.Auth.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Business\Osb.Core.Platform.Business.Infrastructure\Osb.Core.Platform.Business.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\..\Platform\Integration\Osb.Core.Platform.Integration.Infrastructure\Osb.Core.Platform.Integration.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

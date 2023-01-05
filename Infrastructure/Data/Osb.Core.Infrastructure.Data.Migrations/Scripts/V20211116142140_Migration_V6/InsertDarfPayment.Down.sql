@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertdarfpayment(bigint, bigint, bigint, character varying, integer, character varying, character varying, character varying, character varying, timestamp with time zone, numeric, character varying, numeric, numeric, numeric, timestamp without time zone,character varying, character varying, bigint, integer)

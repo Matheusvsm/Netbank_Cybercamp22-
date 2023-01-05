@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatepixout(bigint, bigint, integer, integer)

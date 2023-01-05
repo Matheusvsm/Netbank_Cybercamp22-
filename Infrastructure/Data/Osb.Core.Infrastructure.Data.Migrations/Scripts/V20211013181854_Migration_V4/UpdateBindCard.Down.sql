@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatebindcard(bigint, integer, integer, integer);

@@ -1,0 +1,1 @@
+DROP FUNCTION public.getdevicebyuseridandcompanyid(bigint, bigint);

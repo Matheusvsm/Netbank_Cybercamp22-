@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertactionfunction(character varying, character varying, bigint)

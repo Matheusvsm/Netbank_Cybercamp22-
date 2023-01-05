@@ -1,0 +1,183 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Content Include="Resources\*.*">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Osb.Core.Platform.Business.Entity\Osb.Core.Platform.Business.Entity.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Business.Repository\Osb.Core.Platform.Business.Repository.csproj" />
+    <ProjectReference Include="..\..\Auth\Osb.Core.Platform.Auth.Entity\Osb.Core.Platform.Auth.Entity.csproj" />
+    <ProjectReference Include="..\..\Auth\Osb.Core.Platform.Auth.Repository\Osb.Core.Platform.Auth.Repository.csproj" />
+    <ProjectReference Include="..\..\Auth\Osb.Core.Platform.Auth.Util\Osb.Core.Platform.Auth.Util.csproj" />
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Util\Osb.Core.Platform.Common.Util.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\AccountExcMsg\AccountExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AccountExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\BankServiceExcMsg\BankServiceExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BankServiceExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\BoletoPaymentExcMsg\BoletoPaymentExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BoletoPaymentExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\CardExcMsg\CardExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CardExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\FavoredExcMsg\FavoredExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>FavoredExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\FutureTransactionsExcMsg\FutureTransactionsExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>FutureTransactionsExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\HashCodeExcMsg\HashCodeExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HashCodeExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\InternalTransferExcMsg\InternalTransferExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>InternalTransferExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\InternalTransferMsg\InternalTransferInfoMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>InternalTransferInfoMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\LimitedAccountExcMsg\LimitedAccountExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LimitedAccountExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\MoneyTransferExcMsg\MoneyTransferExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MoneyTransferExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\NewAccountExcMsg\NewAccountExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>NewAccountExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PushNotificationMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PushNotificationMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PixExcMsg\PixExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PixExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\TagExcMsg\TagExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TagExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\TaxPaymentExcMsg\TaxPaymentExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TaxPaymentExcMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\TopUpExcMsg\TopUpExcMsg.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TopUpExcMsg.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Resources\PushNotificationMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PushNotificationMsg.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\AccountExcMsg\AccountExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AccountExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\BankServiceExcMsg\BankServiceExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BankServiceExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\BoletoPaymentExcMsg\BoletoPaymentExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BoletoPaymentExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\CardExcMsg\CardExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CardExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\FavoredExcMsg\FavoredExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FavoredExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\FutureTransactionsExcMsg\FutureTransactionsExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FutureTransactionsExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\HashCodeExcMsg\HashCodeExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>HashCodeExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\InternalTransferExcMsg\InternalTransferExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>InternalTransferExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\InternalTransferMsg\InternalTransferInfoMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>InternalTransferInfoMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\LimitedAccountExcMsg\LimitedAccountExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LimitedAccountExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\MoneyTransferExcMsg\MoneyTransferExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MoneyTransferExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\NewAccountExcMsg\NewAccountExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewAccountExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\PixExcMsg\PixExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PixExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TagExcMsg\TagExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TagExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TaxPaymentExcMsg\TaxPaymentExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TaxPaymentExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TopUpExcMsg\TopUpExcMsg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TopUpExcMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup> 
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

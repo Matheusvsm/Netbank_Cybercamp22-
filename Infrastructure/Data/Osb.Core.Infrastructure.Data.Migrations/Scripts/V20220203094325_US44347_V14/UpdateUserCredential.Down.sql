@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateusercredential(bigint, bigint, timestamp without time zone);

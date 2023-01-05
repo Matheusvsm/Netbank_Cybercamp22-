@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertauthorizationtoken(bigint, bigint, character varying, character varying, character varying, integer, timestamp without time zone);

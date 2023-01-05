@@ -1,0 +1,1 @@
+DROP FUNCTION public.getnewaccountbystatus(integer, bigint);

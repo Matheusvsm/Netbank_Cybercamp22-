@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertpixkey(integer, character varying, bigint, bigint, integer)

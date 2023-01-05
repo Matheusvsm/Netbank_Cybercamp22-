@@ -1,0 +1,378 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Migrations",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildMigrations",
+      "program": "${workspaceFolder}/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/bin/Debug/net5.0/Osb.Core.Infrastructure.Data.Migrations.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Launch OSB Core",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Api/Osb.Core.Api.Application/bin/Debug/net5.0/Osb.Core.Api.Application.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Api/Osb.Core.Api.Application",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch OSB Webhook Api",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildOsbWebhookApi",
+      "program": "${workspaceFolder}/Webhook/Osb.Core.Webhook.Api/bin/Debug/net5.0/Osb.Core.Webhook.Api.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Webhook/Osb.Core.Webhook.Api",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate InternalTransfer Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateInternalTransferWorker",
+      "program": "${workspaceFolder}/Workers/InternalTransfer/Generate/Osb.Core.Workers.InternalTransfer.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.InternalTransfer.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/InternalTransfer/Generate/Osb.Core.Workers.InternalTransfer.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate SmsTransfer Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateSmsTransferWorker",
+      "program": "${workspaceFolder}/Workers/SmsTransfer/Generate/Osb.Core.Workers.SmsTransfer.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.SmsTransfer.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/SmsTransfer/Generate/Osb.Core.Workers.SmsTransfer.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate BoletoPayment Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateBoletoPaymentWorker",
+      "program": "${workspaceFolder}/Workers/BoletoPayment/Generate/Osb.Core.Workers.BoletoPayment.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.BoletoPayment.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/BoletoPayment/Generate/Osb.Core.Workers.BoletoPayment.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate MoneyTransfer Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateMoneyTransferWorker",
+      "program": "${workspaceFolder}/Workers/MoneyTransfer/Generate/Osb.Core.Workers.MoneyTransfer.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.MoneyTransfer.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/MoneyTransfer/Generate/Osb.Core.Workers.MoneyTransfer.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate NewAccount Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateNewAccount",
+      "program": "${workspaceFolder}/Workers/NewAccount/Generate/Osb.Core.Workers.NewAccount.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.NewAccount.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/NewAccount/Generate/Osb.Core.Workers.NewAccount.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate LimitedAccount Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateLimitedAccountWorker",
+      "program": "${workspaceFolder}/Workers/LimitedAccount/Generate/Osb.Core.Workers.LimitedAccount.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.LimitedAccount.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/LimitedAccount/Generate/Osb.Core.Workers.LimitedAccount.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate Notification Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateNotificationWorker",
+      "program": "${workspaceFolder}/Workers/Notification/Generate/Osb.Core.Workers.Notification.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.Notification.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/Notification/Generate/Osb.Core.Workers.Notification.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate PendingUser Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGeneratePendingUserWorker",
+      "program": "${workspaceFolder}/Workers/PendingUser/Generate/Osb.Core.Workers.PendingUser.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.PendingUser.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/PendingUser/Generate/Osb.Core.Workers.PendingUser.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate TopUp Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateTopUpWorker",
+      "program": "${workspaceFolder}/Workers/TopUp/Generate/Osb.Core.Workers.TopUp.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.TopUp.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/TopUp/Generate/Osb.Core.Workers.TopUp.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Authorize TopUp Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildAuthorizeTopUpWorker",
+      "program": "${workspaceFolder}/Workers/TopUp/Authorize/Osb.Core.Workers.TopUp.Authorize.Starter/bin/Debug/net5.0/Osb.Core.Workers.TopUp.Authorize.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/TopUp/Authorize/Osb.Core.Workers.TopUp.Authorize.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate DARJPayment Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateDARJPaymentWorker",
+      "program": "${workspaceFolder}/Workers/TaxPayment/DARJ/Generate/Osb.Core.Workers.TaxPayment.DARJ.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.TaxPayment.DARJ.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/TaxPayment/DARJ/Generate/Osb.Core.Workers.TaxPayment.DARJ.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate GAREPayment Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateGAREPaymentWorker",
+      "program": "${workspaceFolder}/Workers/TaxPayment/GARE/Generate/Osb.Core.Workers.TaxPayment.GARE.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.TaxPayment.GARE.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/TaxPayment/GARE/Generate/Osb.Core.Workers.TaxPayment.GARE.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate FGTSPayment Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateFGTSPaymentWorker",
+      "program": "${workspaceFolder}/Workers/TaxPayment/FGTS/Generate/Osb.Core.Workers.TaxPayment.FGTS.Generate.Starter/bin/Debug/net5.0/Osb.Core.Workers.TaxPayment.FGTS.Generate.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/TaxPayment/FGTS/Generate/Osb.Core.Workers.TaxPayment.FGTS.Generate.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate RefundPixIn Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGenerateRefundPixInWorker",
+      "program": "${workspaceFolder}/Workers/Pix/RefundPixIn/Osb.Core.Workers.Pix.RefundPixIn.Starter/bin/Debug/net5.0/Osb.Core.Workers.Pix.RefundPixIn.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/Pix/RefundPixIn/Osb.Core.Workers.Pix.RefundPixIn.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Generate PixOut Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildGeneratePixOutWorker",
+      "program": "${workspaceFolder}/Workers/Pix/GeneratePixOut/Osb.Core.Workers.Pix.GeneratePixOut.Starter/bin/Debug/net5.0/Osb.Core.Workers.Pix.GeneratePixOut.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/Pix/GeneratePixOut/Osb.Core.Workers.Pix.GeneratePixOut.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      "name": "Launch Claim PixKey Worker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildClaimPixKeyWorker",
+      "program": "${workspaceFolder}/Workers/Pix/ClaimPixKey/Osb.Core.Workers.Pix.ClaimPixKey.Starter/bin/Debug/net5.0/Osb.Core.Workers.Pix.ClaimPixKey.Starter.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Workers/Pix/ClaimPixKey/Osb.Core.Workers.Pix.ClaimPixKey.Starter",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\\\bNow listening on:\\\\s+(https?://\\\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    }
+  ]
+}

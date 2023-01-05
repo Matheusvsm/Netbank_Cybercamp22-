@@ -1,0 +1,1 @@
+DROP FUNCTION public.getmoneytransferbyexternalidentifier(bigint);

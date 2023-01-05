@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertinternaltransfer(character varying, bigint, bigint, bigint, numeric, timestamp without time zone, integer, character varying, bigint);

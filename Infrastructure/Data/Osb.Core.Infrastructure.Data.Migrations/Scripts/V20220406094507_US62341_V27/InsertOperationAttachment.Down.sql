@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertoperationattachment(bigint, character varying, character varying, bigint);

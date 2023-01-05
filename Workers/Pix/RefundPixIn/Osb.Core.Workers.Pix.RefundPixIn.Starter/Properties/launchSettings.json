@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Osb.Core.Workers.Pix.RefundPixIn.Start": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

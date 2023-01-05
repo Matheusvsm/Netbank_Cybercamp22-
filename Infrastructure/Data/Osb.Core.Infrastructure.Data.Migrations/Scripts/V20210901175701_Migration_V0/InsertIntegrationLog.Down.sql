@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertintegrationlog(character varying, character varying, character varying, bigint, character varying, bigint);

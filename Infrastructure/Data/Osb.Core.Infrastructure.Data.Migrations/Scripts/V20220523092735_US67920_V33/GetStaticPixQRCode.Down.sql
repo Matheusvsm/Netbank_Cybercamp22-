@@ -1,0 +1,1 @@
+DROP FUNCTION public.getstaticpixqrcode(integer, bigint, bigint);

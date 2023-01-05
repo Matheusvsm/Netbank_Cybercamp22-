@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertmoneytransfer(bigint, character varying, bigint, character varying, character varying, bigint, numeric, timestamp without time zone, integer, character varying, bigint);

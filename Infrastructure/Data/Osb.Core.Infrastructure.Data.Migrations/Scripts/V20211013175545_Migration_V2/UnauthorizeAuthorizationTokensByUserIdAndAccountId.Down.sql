@@ -1,0 +1,1 @@
+DROP FUNCTION public.unauthorizeauthorizationtokensbyuseridandaccountid(bigint, bigint);

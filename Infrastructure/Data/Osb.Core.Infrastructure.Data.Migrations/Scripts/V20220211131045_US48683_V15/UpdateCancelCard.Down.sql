@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatecancelcard(bigint, integer)

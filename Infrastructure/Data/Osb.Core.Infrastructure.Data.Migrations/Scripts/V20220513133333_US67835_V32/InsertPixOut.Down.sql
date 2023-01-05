@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertpixout(bigint, bigint, character varying, character varying, character varying, character varying, character varying, character varying, decimal, integer, timestamp without time zone, character varying, character varying, character varying, integer, integer, character varying, bigint) 

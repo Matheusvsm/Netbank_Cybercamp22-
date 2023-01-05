@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertuserwebhook(bigint, character varying, character varying, character varying, character varying, character varying, character varying, integer, bigint, character varying, character varying, character varying, character varying);

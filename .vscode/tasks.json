@@ -1,0 +1,270 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Api/Osb.Core.Api.Application/Osb.Core.Api.Application.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildOsbWebhookApi",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Webhook/Osb.Core.Webhook.Api/Osb.Core.Webhook.Api.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildMigrations",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/Osb.Core.Infrastructure.Data.Migrations.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateInternalTransferWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/InternalTransfer/Generate/Osb.Core.Workers.InternalTransfer.Generate.Starter/Osb.Core.Workers.InternalTransfer.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateLimitedAccountWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/LimitedAccount/Generate/Osb.Core.Workers.LimitedAccount.Generate.Starter/Osb.Core.Workers.LimitedAccount.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateMoneyTransferWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/MoneyTransfer/Generate/Osb.Core.Workers.MoneyTransfer.Generate.Starter/Osb.Core.Workers.MoneyTransfer.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateBoletoPaymentWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/BoletoPayment/Generate/Osb.Core.Workers.BoletoPayment.Generate.Starter/Osb.Core.Workers.BoletoPayment.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "publish",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "publish",
+        "${workspaceFolder}/Api/Osb.Core.Api.Application/Osb.Core.Api.Application.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "publish",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "publish",
+        "${workspaceFolder}/Osb.Core.Webhook.Api/Osb.Core.Webhook.Api.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "watch",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "watch",
+        "run",
+        "${workspaceFolder}/Api/Osb.Core.Api.Application/Osb.Core.Api.Application.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateNewAccount",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/NewAccount/Generate/Osb.Core.Workers.NewAccount.Generate.Starter/Osb.Core.Workers.NewAccount.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateNotificationWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/Notification/Generate/Osb.Core.Workers.Notification.Generate.Starter/Osb.Core.Workers.Notification.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGeneratePendingUserWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/PendingUser/Generate/Osb.Core.Workers.PendingUser.Generate.Starter/Osb.Core.Workers.PendingUser.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateTopUpWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/TopUp/Generate/Osb.Core.Workers.TopUp.Generate.Starter/Osb.Core.Workers.TopUp.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildAuthorizeTopUpWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/TopUp/Authorize/Osb.Core.Workers.TopUp.Authorize.Starter/Osb.Core.Workers.TopUp.Authorize.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateFGTSPaymentWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/TaxPayment/FGTS/Generate/Osb.Core.Workers.TaxPayment.FGTS.Generate.Starter/Osb.Core.Workers.TaxPayment.FGTS.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateDARJPaymentWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/TaxPayment/DARJ/Generate/Osb.Core.Workers.TaxPayment.DARJ.Generate.Starter/Osb.Core.Workers.TaxPayment.DARJ.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateGAREPaymentWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/TaxPayment/GARE/Generate/Osb.Core.Workers.TaxPayment.GARE.Generate.Starter/Osb.Core.Workers.TaxPayment.GARE.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateSmsTransferWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/SmsTransfer/Generate/Osb.Core.Workers.SmsTransfer.Generate.Starter/Osb.Core.Workers.SmsTransfer.Generate.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGenerateRefundPixInWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/Pix/RefundPixIn/Osb.Core.Workers.Pix.RefundPixIn.Starter/Osb.Core.Workers.Pix.RefundPixIn.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildGeneratePixOutWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/Pix/GeneratePixOut/Osb.Core.Workers.Pix.GeneratePixOut.Starter/Osb.Core.Workers.Pix.GeneratePixOut.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "buildClaimPixKeyWorker",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Workers/Pix/ClaimPixKey/Osb.Core.Workers.Pix.ClaimPixKey.Starter/Osb.Core.Workers.Pix.ClaimPixKey.Starter.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

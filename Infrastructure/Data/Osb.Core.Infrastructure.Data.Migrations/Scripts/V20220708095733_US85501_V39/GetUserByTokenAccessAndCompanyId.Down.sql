@@ -1,0 +1,1 @@
+DROP FUNCTION public.getuserbytokenaccessandcompanyid(character varying, bigint);

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Data\Osb.Core.Infrastructure.Data.DependecyInjection\Osb.Core.Infrastructure.Data.DependecyInjection.csproj" />
+    <ProjectReference Include="..\..\Platform\Integration\Osb.Core.Platform.Integration.Infrastructure\Osb.Core.Platform.Integration.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Platform\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj" />
+    <ProjectReference Include="..\..\Platform\Common\Osb.Core.Platform.Common.Entity\Osb.Core.Platform.Common.Entity.csproj" />
+    <ProjectReference Include="..\..\Platform\Business\Factory\Osb.Core.Platform.Business.Factory.Service\Osb.Core.Platform.Business.Factory.Service.csproj" />
+    <ProjectReference Include="..\..\Platform\Business\Osb.Core.Platform.Business.Service\Osb.Core.Platform.Business.Service.csproj" />
+    <ProjectReference Include="..\..\Platform\Business\Osb.Core.Platform.Business.Infrastructure\Osb.Core.Platform.Business.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Platform\Business\Osb.Core.Platform.Business.Repository\Osb.Core.Platform.Business.Repository.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Data\Osb.Core.Infrastructure.Data.DependecyInjection\Osb.Core.Infrastructure.Data.DependecyInjection.csproj" />
+    <ProjectReference Include="..\..\Platform\Integration\Osb.Core.Platform.Integration.Infrastructure\Osb.Core.Platform.Integration.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Platform\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj" />
+    <ProjectReference Include="..\..\Platform\Common\Osb.Core.Platform.Common.Entity\Osb.Core.Platform.Common.Entity.csproj" />
+    <ProjectReference Include="..\..\Platform\Auth\Factory\Osb.Core.Platform.Auth.Factory.Service\Osb.Core.Platform.Auth.Factory.Service.csproj" />
+    <ProjectReference Include="..\..\Platform\Auth\Osb.Core.Platform.Auth.Service\Osb.Core.Platform.Auth.Service.csproj" />
+    <ProjectReference Include="..\..\Platform\Auth\Osb.Core.Platform.Auth.Infrastructure\Osb.Core.Platform.Auth.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Platform\Auth\Osb.Core.Platform.Auth.Repository\Osb.Core.Platform.Auth.Repository.csproj" />
+    <ProjectReference Include="..\Osb.Core.Webhook.Common\Osb.Core.Webhook.Common.csproj" />
+    <ProjectReference Include="..\Osb.Core.Webhook.Repository\Osb.Core.Webhook.Repository.csproj" />
+    <ProjectReference Include="..\Osb.Core.Webhook.Factory\Osb.Core.Webhook.Factory.csproj" />
+    <ProjectReference Include="..\Osb.Core.Webhook.Infrastructure\Osb.Core.Webhook.Infrastructure.csproj" />
+    
+  </ItemGroup>
+
+</Project>

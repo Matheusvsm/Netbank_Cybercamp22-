@@ -1,0 +1,1 @@
+DROP FUNCTION public.getbindcardbyidentifier(character varying);

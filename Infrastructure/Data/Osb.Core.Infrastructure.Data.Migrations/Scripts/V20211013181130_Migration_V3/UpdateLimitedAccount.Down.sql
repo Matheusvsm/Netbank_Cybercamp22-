@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatelimitedaccount(bigint, character varying, integer, integer, bigint);

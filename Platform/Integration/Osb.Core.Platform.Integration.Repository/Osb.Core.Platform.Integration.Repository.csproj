@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Entity\Osb.Core.Platform.Integration.Entity.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Data\Osb.Core.Infrastructure.Data.Repository\Osb.Core.Infrastructure.Data.Repository.csproj" />
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Entity\Osb.Core.Platform.Common.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

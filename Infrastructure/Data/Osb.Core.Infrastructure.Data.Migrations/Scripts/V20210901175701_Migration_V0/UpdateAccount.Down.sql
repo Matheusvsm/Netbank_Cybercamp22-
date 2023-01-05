@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateaccount(bigint, bigint, character varying, bigint, bigint, bigint, character varying, character varying, bigint)

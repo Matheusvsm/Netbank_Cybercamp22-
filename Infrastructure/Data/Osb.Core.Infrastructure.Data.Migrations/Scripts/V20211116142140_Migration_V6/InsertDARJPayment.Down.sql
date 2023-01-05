@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertdarjpayment(bigint, bigint, character varying, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying, character varying, bigint, timestamp without time zone, bigint, character varying, character varying, integer, bigint);

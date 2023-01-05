@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertblockcard(character varying, bigint, character varying, character varying, integer, bigint, bigint);

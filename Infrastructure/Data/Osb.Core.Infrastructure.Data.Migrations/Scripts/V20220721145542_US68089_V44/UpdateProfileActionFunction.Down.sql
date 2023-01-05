@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.updateprofileactionfunction(bigint, bigint, bigint);

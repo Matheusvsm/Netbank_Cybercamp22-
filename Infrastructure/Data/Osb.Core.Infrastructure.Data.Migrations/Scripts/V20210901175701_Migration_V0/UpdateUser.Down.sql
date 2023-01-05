@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateuser(bigint, character varying, integer, integer)

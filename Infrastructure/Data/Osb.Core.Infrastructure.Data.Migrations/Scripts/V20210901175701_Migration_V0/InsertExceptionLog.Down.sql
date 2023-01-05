@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertexceptionlog(character varying, integer, bigint)

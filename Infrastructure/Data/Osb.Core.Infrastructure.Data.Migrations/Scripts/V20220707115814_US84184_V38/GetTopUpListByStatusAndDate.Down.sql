@@ -1,0 +1,1 @@
+DROP FUNCTION public.gettopuplistbystatusanddate(integer, timestamp without time zone)

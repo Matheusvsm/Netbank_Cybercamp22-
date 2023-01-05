@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertprofileactionfunction(bigint, bigint, bigint);

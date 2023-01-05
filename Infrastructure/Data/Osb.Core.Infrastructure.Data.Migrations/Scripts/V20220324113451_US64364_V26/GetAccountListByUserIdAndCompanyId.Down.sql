@@ -1,0 +1,1 @@
+DROP FUNCTION public.getaccountlistbyuseridandcompanyid(bigint, bigint);

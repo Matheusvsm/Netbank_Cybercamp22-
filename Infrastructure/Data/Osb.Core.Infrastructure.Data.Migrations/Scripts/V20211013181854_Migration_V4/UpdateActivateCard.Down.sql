@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateactivatecard(bigint, integer, integer, bigint)

@@ -1,0 +1,11 @@
+{
+    "profiles": {
+      "Osb.Core.Services.Payment.Generate.Worker": {
+        "commandName": "Project",
+        "dotnetRunMessages": "true",
+        "environmentVariables": {
+          "DOTNET_ENVIRONMENT": "Development"
+        }
+      }
+    }
+  }

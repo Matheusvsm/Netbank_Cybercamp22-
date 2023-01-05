@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Entity\Osb.Core.Platform.Integration.Entity.csproj"/>
+    <ProjectReference Include="..\Factory\Osb.Core.Platform.Integration.Factory.Repository\Osb.Core.Platform.Integration.Factory.Repository.csproj"/>
+    <ProjectReference Include="..\Osb.Core.Platform.Integration.Repository\Osb.Core.Platform.Integration.Repository.csproj"/>
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj"/>
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Util\Osb.Core.Platform.Common.Util.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.0"/>
+    <PackageReference Include="xunit" Version="2.0.0"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.0.0"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+</Project>

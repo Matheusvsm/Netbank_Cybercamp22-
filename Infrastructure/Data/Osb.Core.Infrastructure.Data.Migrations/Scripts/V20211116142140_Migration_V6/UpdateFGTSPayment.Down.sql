@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatefgtspayment(bigint, bigint, integer, integer, bigint);

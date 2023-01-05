@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatenewaccount(bigint, integer, integer, bigint)
